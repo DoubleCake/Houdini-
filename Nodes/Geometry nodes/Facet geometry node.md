@@ -8,6 +8,9 @@ Facet和Divide一样，作为pipeline来分阶段改变几何体。出于这个�
 
 这个工具对于清理geometry很有用。你可以调整背向的geometry方向，删除degenerative polygons，合并或者生成唯一点，或基于edge的cusp polygon。
 
-小贴士
+>这个操作是清理从.dxf文件中读入的geometry的好帮手，它可以纠正一些.dxf文件中存在的翻转法线。
 
-这个操作是清理从.dxf文件中读入的几何体的好帮手，它纠正了一些.dxf文件中存在的翻转法线。它可以修正一些.dxf文件中的翻转法线。
+## Using Facet
+
+1. 选择你需要进行Facet操作的faces、edges、points
+2. 点击位于多边形栏 (Polygon tab)的Fact,你可以在parameter editer中改变 
